@@ -1,5 +1,8 @@
 import React from "react";
 import Header from "../components/Header";
+import DeveloperVibes from "../components/DeveloperVibes";
+import LeftAside from "../components/HomeLayouts/LeftAside";
+import RightAside from "../components/HomeLayouts/RightAside";
 
 const HomeLayout = () => {
   return (
@@ -7,11 +10,21 @@ const HomeLayout = () => {
       <header>
         <Header></Header>
       </header>
-      <main>
-        <section className="left_nav"></section>
-        <section className="main"></section>
-        <section className="right_nav"></section>
+      <main className="w-11/12 mx-auto py-3 grid grid-cols-12 min-h-screen">
+        <aside className="col-span-1 h-full">
+          <LeftAside></LeftAside>
+        </aside>
+        <section className="main col-span-10">Home</section>
+        <aside className="col-span-1 h-full ">
+          <RightAside></RightAside>
+        </aside>
       </main>
+
+      {/* <footer>
+        <section className="w-11/12 mx-auto my-3">
+          <DeveloperVibes></DeveloperVibes>
+        </section>
+      </footer> */}
     </div>
   );
 };
