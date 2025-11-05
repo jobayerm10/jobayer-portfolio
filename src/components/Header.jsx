@@ -1,14 +1,14 @@
 import logo from "../assets/logo.png";
 const Header = () => {
   return (
-    <div className="flex justify-between sticky rounded-xl px-3 py-5">
+    <div className="flex justify-between rounded-xl px-3 py-5">
       <img
         src={logo}
         className="w-40 h-10 object-contain"
         alt="Jobayer Mahmud"
       />
-      <div className="flex gap-10 text-accent font-bold">
-        <div className="flex gap-10 mt-2">
+      <div className="flex gap-10 ">
+        <div className="flex  text-accent font-semibold gap-10 mt-2">
           <a href="#profile">Profile</a>
           <a href="#skills">Skills</a>
           <a href="#work">Work</a>

@@ -1,8 +1,8 @@
-import React from "react";
 import Header from "../components/Header";
 import DeveloperVibes from "../components/DeveloperVibes";
 import LeftAside from "../components/HomeLayouts/LeftAside";
 import RightAside from "../components/HomeLayouts/RightAside";
+import Main from "../components/HomeLayouts/Main";
 
 const HomeLayout = () => {
   return (
@@ -14,7 +14,9 @@ const HomeLayout = () => {
         <aside className="col-span-1 h-full">
           <LeftAside></LeftAside>
         </aside>
-        <section className="main col-span-10">Home</section>
+        <section className="main col-span-10">
+          <Main></Main>
+        </section>
         <aside className="col-span-1 h-full ">
           <RightAside></RightAside>
         </aside>
