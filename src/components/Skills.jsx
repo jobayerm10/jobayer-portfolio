@@ -8,7 +8,7 @@ const Skills = () => {
   const categories = Object.keys(skillsData || {});
 
   return (
-    <div id="skills" className="max-w-5xl mx-auto px-4">
+    <div id="skills" className="max-w-5xl mx-auto px-4 bg-transparent">
       <h1 className="text-3xl text-accent text-center font-semibold mb-10">
         Skills
       </h1>
@@ -18,11 +18,12 @@ const Skills = () => {
           <button
             key={category}
             onClick={() => setActiveTab(category)}
-            className={`px-6 py-2 rounded-md border transition-all duration-200 
+            className={`px-5 py-2 font-medium border rounded-md hover:scale-110 hover:-translate-y-1
+                   transition-all duration-200 ease-in-out shadow-md hover:shadow-lg
               ${
                 activeTab === category
-                  ? "bg-[#728f73] text-white shadow-md"
-                  : "bg-transparent border-[#728f73] text-[#728f73] hover:bg-[#3f5040] hover:text-white"
+                  ? "bg-amber-700 text-white shadow-md"
+                  : "bg-transparent border-amber-50 text-white  hover:text-white"
               }`}
           >
             {category}

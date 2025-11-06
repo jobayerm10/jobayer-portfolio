@@ -13,7 +13,7 @@ const Intro = () => {
 
         <p className="mt-4 text-5xl text-accent font-semibold">
           I{" "}
-          <span className="text-[#4e7250]">
+          <span className="text-amber-700">
             <Typewriter
               words={["create", "develop", "maintain"]}
               loop={0}

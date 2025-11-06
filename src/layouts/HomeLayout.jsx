@@ -10,11 +10,11 @@ const HomeLayout = () => {
       <header>
         <Header></Header>
       </header>
-      <main className="w-11/12 mx-auto py-3 grid grid-cols-12 min-h-screen">
+      <main className=" w-11/12 mx-auto py-3 grid grid-cols-12 min-h-screen">
         <aside className="col-span-1 h-full">
-          <LeftAside></LeftAside>
+          {/* <LeftAside></LeftAside> */}
         </aside>
-        <section className="main col-span-10">
+        <section className="main col-span-10 ">
           <Main></Main>
         </section>
         <aside className="col-span-1 h-full  ">

@@ -4,11 +4,12 @@ import "./index.css";
 import App from "./App.jsx";
 import { RouterProvider } from "react-router-dom";
 import router from "./routes/router.jsx";
+import HomeLayout from "./layouts/HomeLayout.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <RouterProvider router={router}>
-      <App></App>
+      <HomeLayout></HomeLayout>
     </RouterProvider>
   </StrictMode>
 );
