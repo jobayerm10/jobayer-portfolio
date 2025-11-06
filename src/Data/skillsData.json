@@ -1,0 +1,25 @@
+{
+  "Web": [
+    { "name": "HTML5", "icon": "/src/assets/Icons/html5.png" },
+    { "name": "CSS3", "icon": "/src/assets/Icons/css3.png" },
+    { "name": "Tailwind CSS", "icon": "/src/assets/Icons/tailwindcss.png" },
+    { "name": "JavaScript", "icon": "/src/assets/Icons/javascript.png" },
+    { "name": "React", "icon": "/src/assets/Icons/react.png" },
+    { "name": "Next.js", "icon": "/src/assets/Icons/next-js.png" },
+    { "name": "Node.js", "icon": "/src/assets/Icons/node-js.png" },
+    { "name": "Express.js", "icon": "/src/assets/Icons/express-js.png" },
+    { "name": "MongoDB", "icon": "/src/assets/Icons/mongodb.png" },
+    { "name": "Firebase", "icon": "/src/assets/Icons/firebase.png" }
+  ],
+  "Tools": [
+    { "name": "Git", "icon": "/src/assets/Icons/git.png" },
+    { "name": "GitHub", "icon": "/src/assets/Icons/github.png" },
+    { "name": "Netlify", "icon": "/src/assets/Icons/netlify.png" },
+    { "name": "JWT", "icon": "/src/assets/Icons/jwt.png" },
+    { "name": "Trello", "icon": "/src/assets/Icons/trello.png" }
+  ],
+  "Others": [
+    { "name": "Figma", "icon": "/src/assets/Icons/figma.png" },
+    { "name": "Canva", "icon": "/src/assets/Icons/canva.png" }
+  ]
+}
