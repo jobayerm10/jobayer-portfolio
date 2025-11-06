@@ -1,7 +1,7 @@
 import logo from "../assets/logo.png";
 const Header = () => {
   return (
-    <div className="flex justify-between rounded-xl px-3 py-5">
+    <div className="flex justify-between items-center rounded-xl px-3 py-5 fixed top-0 left-0 right-0 bg-base-100 z-50 shadow-sm">
       <img
         src={logo}
         className="w-40 h-10 object-contain"

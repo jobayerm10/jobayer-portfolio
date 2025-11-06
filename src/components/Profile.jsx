@@ -3,7 +3,7 @@ const Profile = () => {
   return (
     <div
       id="profile"
-      className=" bg-[#f9fafb] flex flex-col items-center justify-center min-h-screen px-8"
+      className="  flex flex-col items-center justify-center py-20 px-8"
     >
       <h1 className="text-3xl text-accent font-semibold ">Profile</h1>
       <div className="flex items-center justify-between max-w-6xl w-full gap-2 mt-10 ">
@@ -56,7 +56,7 @@ const Profile = () => {
 
         <div className=" w-1/2 flex justify-center relative group">
           <img
-            className=" rounded-md shadow-lg  object-cover  z-10 transition-transform duration-300 group-hover:scale-105 group-hover:shadow-2xl "
+            className=" rounded-2xl shadow-lg  object-cover  z-10 transition-transform duration-300 group-hover:scale-105 group-hover:shadow-2xl "
             src={Image}
             alt="Jobayer Mahmud"
           />

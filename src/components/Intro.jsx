@@ -3,7 +3,7 @@ import IntroGif from "./IntroGif";
 
 const Intro = () => {
   return (
-    <div className="flex items-center justify-between min-h-screen">
+    <div className="flex items-center justify-between min-h-screen  px-8">
       <div className="flex flex-col items-start text-left">
         <h4 className="text-xl font-medium">Hi, I'm</h4>
 
