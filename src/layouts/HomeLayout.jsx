@@ -17,7 +17,7 @@ const HomeLayout = () => {
         <section className="main col-span-10">
           <Main></Main>
         </section>
-        <aside className="col-span-1 h-full ">
+        <aside className="col-span-1 h-full bg-accent ">
           <RightAside></RightAside>
         </aside>
       </main>

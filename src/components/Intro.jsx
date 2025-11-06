@@ -3,9 +3,9 @@ import IntroGif from "./IntroGif";
 
 const Intro = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen">
+    <div className="flex items-center justify-between min-h-screen">
       <div className="flex flex-col items-start text-left">
-        <h4 className="text-xl">Hi, my name is</h4>
+        <h4 className="text-xl font-medium">Hi, I'm</h4>
 
         <p className="text-5xl mt-3 font-bold text-accent">
           JOBAYER <span>MAHMUD</span>
@@ -26,11 +26,9 @@ const Intro = () => {
           websites
         </p>
 
-        <p className="text-xl mt-2">
+        <p className="font-medium mt-2 w-[50%]">
           I am a Front-End developer, Educator and a Tech enthusiast. I am
-          always
-          <br />
-          looking for new opportunities to learn and grow
+          always looking for new opportunities to learn and grow
         </p>
       </div>
 
